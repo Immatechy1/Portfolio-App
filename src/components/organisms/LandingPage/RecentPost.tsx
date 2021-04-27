@@ -2,7 +2,7 @@ import React from "react";
 
 const RecentPost = () => {
   return (
-    <div className="bg-SkyBlue-300  bigLaptop:pl-40  bigLaptop:pr-40 pt-2 bigLaptop:pt-4 pb-4 bigLaptop:pb-10">
+    <div className="bg-SkyBlue-300  bigLaptop:px-40  pt-2 bigLaptop:pt-4 pb-4 bigLaptop:pb-10">
       <div className="flex justify-center bigLaptop:justify-between font-normal">
         <p className="text-xl">Recent posts</p>
         <p className="hidden smallLaptop:grid text-base text-Blue-200">
