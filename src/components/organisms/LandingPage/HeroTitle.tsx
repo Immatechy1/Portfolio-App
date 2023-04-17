@@ -17,9 +17,9 @@ const HeroTitleData = [
 
 const HeroTitle = () => {
   return (
-    <div className="grid bigLaptop:flex px-10 bigLaptop:px-40 bigLaptop:space-x-96">
-      <div className="mt-6 bigLaptop:mt-12">
-        <h1 className="text-3xl bigLaptop:text-5xl text-center bigLaptop:text-left font-bold">
+    <div className="grid bigLaptop:flex px-10 bigLaptop:mt-20 bigLaptop:px-40 bigLaptop:space-x-96">
+      <div className="mt-6 ">
+        <h1 className="text-3xl bigLaptop:text-5xl tablet:4xl text-center bigLaptop:text-left font-bold">
           Hi, I am John, Creative Technologist
         </h1>
         <div className="mt-10 text-center bigLaptop:text-left font-normal test-base bigLaptop:test-lg leading-6">
@@ -39,7 +39,7 @@ const HeroTitle = () => {
         </div>
       </div>
 
-      <div className="relative order-first flex bigLaptop:grid justify-center bigLaptop:justify-end mt-6 bigLaptop:mt-10 bigLaptop:order-none bigLaptop:w-[600px]">
+      <div className="relative order-first flex bigLaptop:grid justify-center bigLaptop:justify-end mt-6 bigLaptop:order-none bigLaptop:w-[580px]">
         <Image
           className="absolute ml-1 bigLaptop:ml-2"
           height={250}
