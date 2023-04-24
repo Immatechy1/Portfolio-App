@@ -4,16 +4,16 @@ import React from "react";
 
 const Navbar = () => {
     return (
-      <header className="p-10 bg-gray-800 ">
-        <div className="flex items-center justify-between h-16 text-white font-bold">
+      <header className="p-5 bg-white  pr-20">
+        <div className="flex items-center text-xl justify-end h-16 space-x-16  text-black font-medium">
           <Link href="work">
-            <p className="p-10 text-24">Works</p>
+            <p className="hover:text-gray-300">Works</p>
           </Link>
           <Link href="/blog">
-            <h1 className="">Blog</h1>
+            <h1 className="hover:text-gray-300">Blog</h1>
           </Link>
           <Link href="/contact">
-            <h1 className="">Contact</h1>
+            <h1 className="hover:text-gray-300">Contact</h1>
           </Link>
         </div>
       </header>
