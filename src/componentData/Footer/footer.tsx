@@ -4,8 +4,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="p-20  bg-white">
-      <div className="flex justify-center space-x-16">
+    <footer className="p-10 bigLaptop-20  bg-white">
+      <div className="flex justify-center space-x-8">
         <div className="">
           <Link href="#">
             <Icon name="facebook" />
