@@ -1,16 +1,29 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false)
     return (
-      <header className="p-5 bg-white  pr-20">
-        <div className="flex items-center text-xl justify-end h-16 space-x-16  text-black font-medium">
-          <Link href="work">
-            <p className="hover:text-gray-300">Works</p>
+      <header className="p-5 bg-white bigLaptop:pr-20">
+        <div className="flex justify-end">
+          <GiHamburgerMenu
+            className="bigLaptop:hidden cursor-pointer h-10 w-8 "
+            onClick={() => setOpen(!open)}
+          />
+        </div>
+
+        <div
+          className={`${
+            open ? "block" : "hidden"
+          } bigLaptop:flex items-center text-xl justify-end h-16 space-x-16  text-black font-medium`}
+        >
+          <Link href="/works ">
+            <p className="bigLaptop:hover:text-gray-300">Works</p>
           </Link>
           <Link href="/blog">
-            <h1 className="hover:text-gray-300">Blog</h1>
+            <h1 className="hover:border-blue-400 hover:text-gray-300">Blog</h1>
           </Link>
           <Link href="/contact">
             <h1 className="hover:text-gray-300">Contact</h1>
