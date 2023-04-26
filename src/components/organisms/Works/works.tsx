@@ -1,5 +1,6 @@
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
+import React, { useState } from "react";
 
 const FeaturedWorksData = [
   {
@@ -22,6 +23,9 @@ const FeaturedWorksData = [
 ];
 
 const Works = () => {
+
+  const [showWorks, setShowWorks] = useState<boolean>(false);
+
   return (
     <div className="bigLaptop:pl-40 bigLaptop:pr-40 pt-6 pb-10">
       <div className="font-normal ml-4 bigLaptop:ml-0 ">
@@ -39,8 +43,12 @@ const Works = () => {
           />
         </div>
 
-        <div className="ml-4 bigLaptop:ml-8 pt-4">
-          <h1 className="font-bold text-2xl">Designing Dashboards</h1>
+        <div className="ml-4 bigLaptop:ml-8 pt-4  ">
+          <Link href="/work-details">
+            <h1 className="font-bold text-2xl cursor-pointer hover:bg-Blue-b40">
+              Designing Dashboards
+            </h1>
+          </Link>
           <div className="flex items-center font-normal text-base bigLaptop:text-xl mt-4 bigLaptop: mt-6">
             <button className="bg-Blue-b700 text-white rounded-full w-16 bigLaptop:w-20 mr-4 ">
               2020
