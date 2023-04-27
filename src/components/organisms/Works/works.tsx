@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-
 const FeaturedWorksData = [
   {
     id: 0,
@@ -23,7 +22,6 @@ const FeaturedWorksData = [
 ];
 
 const Work = () => {
-
   return (
     <div className="px-8 bigLaptop:px-40 pt-6 pb-10">
       <div className="font-normal">
