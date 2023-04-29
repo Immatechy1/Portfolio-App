@@ -17,9 +17,9 @@ const HeroTitleData = [
 
 const HeroTitle = () => {
   return (
-    <div className="grid bigLaptop:flex">
-      <div className="mt-6 bigLaptop:mt-28 ml-6 bigLaptop:ml-40 mr-6 bigLaptop: mr-10">
-        <h1 className="text-3xl bigLaptop:text-5xl text-center bigLaptop:text-left font-bold leading-tight">
+    <div className="grid bigLaptop:flex px-10 bigLaptop:px-40 bigLaptop:space-x-96">
+      <div className="mt-6 bigLaptop:mt-12">
+        <h1 className="text-3xl bigLaptop:text-5xl text-center bigLaptop:text-left font-bold">
           Hi, I am John, Creative Technologist
         </h1>
         <div className="mt-10 text-center bigLaptop:text-left font-normal test-base bigLaptop:test-lg leading-6">
@@ -28,7 +28,7 @@ const HeroTitle = () => {
           veniam consequat sunt nostrud amet.
         </div>
 
-        <div className="ml-20 bigLaptop:ml-0 mb-14 mt-7">
+        <div className="flex justify-center bigLaptop:justify-start bigLaptop:mb-14 mb-8 mt-7">
           <CustomButton
             customClass="bg-Red-400 rounded-sm border-Red-400 text-white"
             handleClick={() => {}}
@@ -39,19 +39,19 @@ const HeroTitle = () => {
         </div>
       </div>
 
-      <div className="order-first bigLaptop:order-none relative mt-4 bigLaptop:mt-24 ml-20 bigLaptop:mr-40 bigLaptop:ml-40 bigLaptop:w-[400px] ">
+      <div className="relative order-first flex bigLaptop:grid justify-center bigLaptop:justify-end mt-6 bigLaptop:mt-10 bigLaptop:order-none bigLaptop:w-[600px]">
         <Image
-          className="absolute ml-1 bigLaptop: ml-2 "
-          height={200}
+          className="absolute ml-1 bigLaptop:ml-2"
+          height={250}
           src={HeroTitleData[0].url}
-          width={200}
+          width={250}
           alt={""}
         />
         <Image
           className="mt-2 bigLaptop:mt-3"
-          height={200}
+          height={250}
           src={HeroTitleData[1].url}
-          width={200}
+          width={250}
           alt={""}
         />
       </div>

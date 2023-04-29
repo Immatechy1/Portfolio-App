@@ -3,7 +3,7 @@ import React from "react";
  
 const Blog = () => {
   return (
-    <div className="pl-5 bigLaptop:pl-40 pr-5 bigLaptop:pr-40 pt-4 bigLaptop:pt-6">
+    <div className="px-5 bigLaptop:px-40 pt-4 bigLaptop:pt-6">
       <div className="">
         <h1 className="font-bold text-3xl bigLaptop:text-5xl">Blog</h1>
       </div>
