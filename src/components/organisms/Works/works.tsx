@@ -24,8 +24,6 @@ const FeaturedWorksData = [
 
 const Works = () => {
 
-  const [showWorks, setShowWorks] = useState<boolean>(false);
-
   return (
     <div className="bigLaptop:pl-40 bigLaptop:pr-40 pt-6 pb-10">
       <div className="font-normal ml-4 bigLaptop:ml-0 ">
@@ -45,7 +43,7 @@ const Works = () => {
 
         <div className="ml-4 bigLaptop:ml-8 pt-4  ">
           <Link href="/work-details">
-            <h1 className="font-bold text-2xl cursor-pointer hover:bg-Blue-b40">
+            <h1 className="hover:text-blue-300 text-2xl font-bold ">
               Designing Dashboards
             </h1>
           </Link>
