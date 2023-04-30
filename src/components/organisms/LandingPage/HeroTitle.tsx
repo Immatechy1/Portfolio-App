@@ -30,7 +30,7 @@ const HeroTitle = () => {
 
         <div className="ml-20 bigLaptop:ml-0 mb-14 mt-7">
           <CustomButton
-            customClass="bg-red-400 rounded-sm border-red-400 text-white"
+            customClass="bg-Red-400 rounded-sm border-Red-400 text-white"
             handleClick={() => {}}
             size={ButtonProperties.SIZES.small}
             title="Download Resume"
@@ -39,7 +39,7 @@ const HeroTitle = () => {
         </div>
       </div>
 
-      <div className="order-first bigLaptop:order-none relative mt-4 bigLaptop:mt-24 ml-20 bigLaptop:mr-60 bigLaptop:ml-60 bigLaptop:w-[600px] ">
+      <div className="order-first bigLaptop:order-none relative mt-4 bigLaptop:mt-24 ml-20 bigLaptop:mr-40 bigLaptop:ml-40 bigLaptop:w-[400px] ">
         <Image
           className="absolute ml-1 bigLaptop: ml-2 "
           height={200}
