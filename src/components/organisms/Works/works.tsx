@@ -25,8 +25,8 @@ const FeaturedWorksData = [
 const Works = () => {
 
   return (
-    <div className="bigLaptop:pl-40 bigLaptop:pr-40 pt-6 pb-10">
-      <div className="font-normal ml-4 bigLaptop:ml-0 ">
+    <div className="bigLaptop:pl-40 pl-8 pr-8 bigLaptop:pr-40 pt-6 pb-10">
+      <div className="font-normal">
         <p className="text-3xl bigLaptop: text-5xl font-black">Works</p>
       </div>
 
@@ -41,7 +41,7 @@ const Works = () => {
           />
         </div>
 
-        <div className="ml-4 bigLaptop:ml-8 pt-4  ">
+        <div className="bigLaptop:ml-8 pt-4  ">
           <Link href="/work-details">
             <h1 className="hover:text-blue-300 text-2xl font-bold ">
               Designing Dashboards
@@ -74,7 +74,7 @@ const Works = () => {
           />
         </div>
 
-        <div className="ml-4 bigLaptop:ml-8 pt-4">
+        <div className="bigLaptop:ml-8 pt-4">
           <h1 className="font-bold text-2xl">Vibrant Portraits of 2020</h1>
           <div className="flex items-center font-normal text-base bigLaptop:text-xl mt-4 bigLaptop: mt-6">
             <button className="bg-Blue-b700 text-white rounded-full w-16 bigLaptop:w-20 mr-4 ">
@@ -103,7 +103,7 @@ const Works = () => {
           />
         </div>
 
-        <div className="ml-4 bigLaptop:ml-8 pt-4">
+        <div className="bigLaptop:ml-8 pt-4">
           <h1 className="font-bold text-2xl">36 Days of Malayalam type</h1>
           <div className="flex items-center font-normal text-base bigLaptop:text-xl mt-4 bigLaptop: mt-6">
             <button className="bg-Blue-b700 text-white rounded-full w-16 bigLaptop:w-20 mr-4 ">
@@ -132,7 +132,7 @@ const Works = () => {
           />
         </div>
 
-        <div className="ml-4 bigLaptop:ml-8 pt-4">
+        <div className="bigLaptop:ml-8 pt-4">
           <h1 className="font-bold text-2xl">Components</h1>
           <div className="flex items-center font-normal text-base bigLaptop:text-xl mt-4 bigLaptop: mt-6">
             <button className="bg-Blue-b700 text-white rounded-full w-16 bigLaptop:w-20 mr-4 ">
@@ -149,13 +149,6 @@ const Works = () => {
         </div>
       </div>
       <hr />
-      {/* <div className="color-black">
-        <Icon name="arrowRight" />
-      </div>
-
-      <div className="">
-        <Icon name="arrowLeft" />
-      </div> */}
     </div>
   );
 };

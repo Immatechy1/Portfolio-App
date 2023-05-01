@@ -20,9 +20,9 @@ const WorkDetailsData = [
 
 const WorkDetails = () => {
   return (
-    <div className=" pl-5 bigLaptop:pl-80 pr-5 bigLaptop:pr-40 pb-4 bigLaptop:pb-8 pt-4 bigLaptop:pt-6">
-      <div className=" ">
-        <h1 className="text-3xl font-bold">
+    <div className="pl-5 bigLaptop:pl-80 pr-5 bigLaptop:pr-40 pb-4 bigLaptop:pb-8 pt-4 bigLaptop:pt-6">
+      <div className="">
+        <h1 className="text-3xl font-bold flex text-center justify-start">
           Designing Dashboards with usability in mind
         </h1>
       </div>
