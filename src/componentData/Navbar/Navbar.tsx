@@ -17,10 +17,10 @@ const Navbar = () => {
         <div
           className={`${
             open ? "block" : "hidden"
-          } bigLaptop:flex items-center text-xl bigLaptop:justify-end grid justify-end h-16  bigLaptop:space-x-16  text-black font-medium`}
+          } bigLaptop:flex items-center mb-10 text-xl justify-end h-16 leading-10 bigLaptop:space-x-16  text-black font-medium`}
         >
           <Link href="/works ">
-            <p className="hover:text-blue-300">Works</p>
+            <p className="hover:text-blue-300 ">Works</p>
           </Link>
           <Link href="/blog">
             <h1 className="hover:text-blue-300">Blog</h1>
