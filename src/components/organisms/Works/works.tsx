@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+
 
 const FeaturedWorksData = [
   {
@@ -22,10 +22,10 @@ const FeaturedWorksData = [
   },
 ];
 
-const Works = () => {
+const Work = () => {
 
   return (
-    <div className="bigLaptop:pl-40 pl-8 pr-8 bigLaptop:pr-40 pt-6 pb-10">
+    <div className="px-8 bigLaptop:px-40 pt-6 pb-10">
       <div className="font-normal">
         <p className="text-3xl bigLaptop: text-5xl font-black">Works</p>
       </div>
@@ -153,4 +153,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default Work;

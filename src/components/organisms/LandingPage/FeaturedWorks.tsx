@@ -19,7 +19,7 @@ const FeaturedWorksData = [
 
 const FeaturedWorks = () => {
   return (
-    <div className="pl-8 bigLaptop:pl-40 pr-8 bigLaptop:pr-40 pt-6 pb-10">
+    <div className="px-8 bigLaptop:px-40 pt-6 pb-10">
       <div className="flex justify-center bigLaptop:justify-start font-normal ">
         <p className="text-xl font-normal">Featured works</p>
       </div>
