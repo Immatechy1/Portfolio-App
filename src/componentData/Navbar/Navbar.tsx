@@ -2,7 +2,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-
 const Navbar = () => {
   const [open, setOpen] = useState(false)
     return (
