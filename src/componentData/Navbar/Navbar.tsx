@@ -6,7 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
   const [open, setOpen] = useState(false)
     return (
-      <header className="p-5 bg-white bigLaptop:pr-20">
+      <header className="p-5 bg-white mb-10 bigLaptop:mb-0 bigLaptop:pr-20">
         <div className="flex justify-end">
           <GiHamburgerMenu
             className="bigLaptop:hidden cursor-pointer h-10 w-8 "
